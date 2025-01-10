@@ -23,8 +23,6 @@ const md = markdownit({
   typographer: true
 });
 
-<figure class='pano' item='tree-03'></figure>
-<figure class='pano-marker' item='tree-04' pitch=’0.1’ yaw=’-0.35’></figure>
 
 //function that runs when the page loads
 //Consists of three nested calls to the Google Sheets Visualization API - first for site settings/configuration, then for pages, and last for items.
